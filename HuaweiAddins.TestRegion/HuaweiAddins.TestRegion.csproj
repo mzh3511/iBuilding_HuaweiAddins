@@ -55,6 +55,10 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\Product\Dejavu.dll</HintPath>
     </Reference>
+    <Reference Include="DevComponents.DotNetBar2, Version=12.0.0.9, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Product\DevComponents.DotNetBar2.dll</HintPath>
+    </Reference>
     <Reference Include="DiagrammingCore, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\Product\DiagrammingCore.dll</HintPath>
@@ -90,6 +94,7 @@
   <ItemGroup>
     <Compile Include="HuaweiActiveViewTestAddIn.cs" />
     <Compile Include="HuaweiAddIn_PutDev.cs" />
+    <Compile Include="HuaweiAddIn_EnableButton.cs" />
     <Compile Include="HuaweiAddVWall.cs" />
     <Compile Include="HuaweiRegionTestAddIn.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
