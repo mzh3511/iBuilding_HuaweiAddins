@@ -22,6 +22,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <Prefer32Bit>false</Prefer32Bit>
+    <PlatformTarget>x86</PlatformTarget>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -93,6 +94,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="HuaweiActiveViewTestAddIn.cs" />
+    <Compile Include="HuaweiAddIn_CrossPts.cs" />
+    <Compile Include="HuaweiAddIn_MoveDev2Zero.cs" />
     <Compile Include="HuaweiAddIn_PutDev.cs" />
     <Compile Include="HuaweiAddIn_EnableButton.cs" />
     <Compile Include="HuaweiAddVWall.cs" />
