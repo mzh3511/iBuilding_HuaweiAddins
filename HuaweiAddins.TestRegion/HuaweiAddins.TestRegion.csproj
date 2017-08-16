@@ -94,6 +94,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="HuaweiActiveViewTestAddIn.cs" />
+    <Compile Include="HuaweiAddIn_MirrorDev.cs" />
+    <Compile Include="HuaweiAddIn_RotateDev.cs" />
+    <Compile Include="HuaweiAddIn_MoveDevLabel.cs" />
+    <Compile Include="HuaweiAddIn_MoveCableHandlePt.cs" />
     <Compile Include="HuaweiAddIn_CrossPts.cs" />
     <Compile Include="HuaweiAddIn_MoveDev2Zero.cs" />
     <Compile Include="HuaweiAddIn_PutDev.cs" />
